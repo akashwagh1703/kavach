@@ -1,0 +1,12 @@
+{
+  "name": "kavach-frontend",
+  "private": true,
+  "scripts": {
+    "dev:public": "pnpm --filter @kavach/public-website dev",
+    "dev:admin": "pnpm --filter @kavach/platform-admin dev",
+    "dev:tenant": "pnpm --filter @kavach/tenant-workspace dev",
+    "dev:client": "pnpm --filter @kavach/client-portal dev",
+    "dev:guard": "pnpm --filter @kavach/guard-portal dev",
+    "dev:supervisor": "pnpm --filter @kavach/supervisor-portal dev"
+  }
+}

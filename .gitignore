@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+.local-db-password
+frontend/node_modules
+frontend/apps/*/node_modules
+frontend/packages/*/node_modules
+frontend/apps/*/dist
+.DS_Store
+*.log

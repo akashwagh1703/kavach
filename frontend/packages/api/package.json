@@ -1,0 +1,7 @@
+{
+  "name": "@kavach/api",
+  "private": true,
+  "type": "module",
+  "exports": { ".": "./src/index.js" },
+  "dependencies": { "axios": "^1.11.0" }
+}
